@@ -1,0 +1,20 @@
+stripslash.lo: ../../../gnulib/lib/stripslash.c \
+ /usr/include/stdc-predef.h ../../config.h ../../../config-post.h \
+ ../../../gnulib/lib/dirname.h \
+ /usr/lib/gcc/x86_64-linux-gnu/7/include/stdbool.h \
+ /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h \
+ ../../../gnulib/lib/dosname.h
+
+/usr/include/stdc-predef.h:
+
+../../config.h:
+
+../../../config-post.h:
+
+../../../gnulib/lib/dirname.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/7/include/stdbool.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h:
+
+../../../gnulib/lib/dosname.h:

@@ -1,0 +1,972 @@
+libvirtd-remote.o: ../../daemon/remote.c /usr/include/stdc-predef.h \
+ ../config.h ../../config-post.h ../../src/util/virerror.h \
+ ../../src/internal.h /usr/include/errno.h /usr/include/features.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/bits/long-double.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/x86_64-linux-gnu/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ ../gnulib/lib/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h \
+ /usr/include/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+ /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/uio_lim.h ../../gnulib/lib/verify.h \
+ /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h \
+ /usr/lib/gcc/x86_64-linux-gnu/7/include/stdbool.h \
+ /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+ ../../gnulib/lib/gettext.h /usr/include/libintl.h ../gnulib/lib/locale.h \
+ /usr/include/locale.h /usr/include/x86_64-linux-gnu/bits/locale.h \
+ /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+ ../gnulib/lib/string.h /usr/include/string.h ../gnulib/lib/strings.h \
+ /usr/include/strings.h \
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+ ../../include/libvirt/libvirt.h ../gnulib/lib/sys/types.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/timer_t.h /usr/include/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
+ /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+ ../gnulib/lib/sys/select.h /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+ /usr/include/x86_64-linux-gnu/bits/select2.h \
+ /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
+ /usr/include/x86_64-linux-gnu/bits/sysmacros.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+ /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+ ../include/libvirt/libvirt-common.h ../../include/libvirt/libvirt-host.h \
+ ../../include/libvirt/libvirt-domain.h \
+ ../../include/libvirt/libvirt-domain-snapshot.h \
+ ../../include/libvirt/libvirt-event.h \
+ ../../include/libvirt/libvirt-interface.h \
+ ../../include/libvirt/libvirt-network.h \
+ ../../include/libvirt/libvirt-nodedev.h \
+ ../../include/libvirt/libvirt-nwfilter.h \
+ ../../include/libvirt/libvirt-secret.h \
+ ../../include/libvirt/libvirt-storage.h \
+ ../../include/libvirt/libvirt-stream.h \
+ ../../include/libvirt/libvirt-lxc.h ../../include/libvirt/libvirt-qemu.h \
+ ../../include/libvirt/libvirt-admin.h ../../include/libvirt/virterror.h \
+ ../../gnulib/lib/c-strcase.h ../../gnulib/lib/ignore-value.h \
+ ../../gnulib/lib/count-leading-zeros.h ../gnulib/lib/stdlib.h \
+ /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+ ../gnulib/lib/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h ../../daemon/remote.h \
+ ../../src/remote/remote_protocol.h /usr/include/rpc/rpc.h \
+ /usr/include/rpc/types.h ../gnulib/lib/sys/time.h \
+ /usr/include/x86_64-linux-gnu/sys/time.h \
+ /usr/include/x86_64-linux-gnu/sys/param.h ../gnulib/lib/signal.h \
+ /usr/include/signal.h /usr/include/x86_64-linux-gnu/bits/signum.h \
+ /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
+ /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
+ /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
+ /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
+ /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
+ /usr/include/x86_64-linux-gnu/bits/sigaction.h \
+ /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
+ /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
+ /usr/include/x86_64-linux-gnu/sys/ucontext.h \
+ /usr/include/x86_64-linux-gnu/bits/sigstack.h \
+ /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
+ /usr/include/x86_64-linux-gnu/bits/sigthread.h \
+ /usr/include/x86_64-linux-gnu/bits/param.h /usr/include/linux/param.h \
+ /usr/include/x86_64-linux-gnu/asm/param.h \
+ /usr/include/asm-generic/param.h /usr/include/netinet/in.h \
+ ../gnulib/lib/sys/socket.h /usr/include/x86_64-linux-gnu/sys/socket.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
+ /usr/include/x86_64-linux-gnu/bits/socket.h \
+ /usr/include/x86_64-linux-gnu/bits/socket_type.h \
+ /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
+ /usr/include/x86_64-linux-gnu/asm/socket.h \
+ /usr/include/asm-generic/socket.h \
+ /usr/include/x86_64-linux-gnu/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
+ /usr/include/x86_64-linux-gnu/bits/socket2.h \
+ /usr/include/x86_64-linux-gnu/bits/in.h /usr/include/rpc/xdr.h \
+ ../gnulib/lib/stdio.h /usr/include/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/libio.h \
+ /usr/include/x86_64-linux-gnu/bits/_G_config.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+ /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h /usr/include/rpc/auth.h \
+ /usr/include/rpc/clnt.h /usr/include/x86_64-linux-gnu/sys/un.h \
+ /usr/include/rpc/rpc_msg.h /usr/include/rpc/auth_unix.h \
+ /usr/include/rpc/auth_des.h /usr/include/rpc/svc.h \
+ /usr/include/rpc/svc_auth.h /usr/include/rpc/netdb.h \
+ ../../src/util/virxdrdefs.h ../gnulib/lib/arpa/inet.h \
+ /usr/include/arpa/inet.h ../../src/rpc/virnetserverprogram.h \
+ ../../src/rpc/virnetmessage.h ../../src/rpc/virnetprotocol.h \
+ ../../src/rpc/virnetserverclient.h ../../src/util/viridentity.h \
+ ../../src/util/virobject.h ../../src/util/virthread.h \
+ ../../src/util/virerror.h /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/x86_64-linux-gnu/bits/sched.h \
+ /usr/include/x86_64-linux-gnu/bits/cpu-set.h ../gnulib/lib/time.h \
+ /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/bits/timex.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+ /usr/include/x86_64-linux-gnu/bits/setjmp.h ../../src/rpc/virnetsocket.h \
+ ../../src/util/virsocketaddr.h ../../src/util/vircommand.h \
+ ../../src/util/virbuffer.h ../../src/util/virobject.h \
+ ../../src/util/virjson.h ../../src/util/virbitmap.h \
+ ../../src/util/viruri.h /usr/include/libxml2/libxml/uri.h \
+ /usr/include/libxml2/libxml/xmlversion.h \
+ /usr/include/libxml2/libxml/xmlexports.h \
+ /usr/include/libxml2/libxml/tree.h \
+ /usr/include/libxml2/libxml/xmlstring.h \
+ /usr/include/libxml2/libxml/xmlregexp.h \
+ /usr/include/libxml2/libxml/dict.h \
+ /usr/include/libxml2/libxml/xmlmemory.h \
+ /usr/include/libxml2/libxml/threads.h \
+ /usr/include/libxml2/libxml/globals.h \
+ /usr/include/libxml2/libxml/parser.h /usr/include/libxml2/libxml/hash.h \
+ /usr/include/libxml2/libxml/valid.h \
+ /usr/include/libxml2/libxml/xmlerror.h \
+ /usr/include/libxml2/libxml/list.h \
+ /usr/include/libxml2/libxml/xmlautomata.h \
+ /usr/include/libxml2/libxml/entities.h \
+ /usr/include/libxml2/libxml/encoding.h /usr/include/iconv.h \
+ /usr/include/unicode/ucnv.h /usr/include/unicode/ucnv_err.h \
+ /usr/include/unicode/utypes.h /usr/include/unicode/umachine.h \
+ /usr/include/unicode/ptypes.h /usr/include/unicode/platform.h \
+ /usr/include/unicode/uconfig.h /usr/include/unicode/uvernum.h \
+ /usr/include/unicode/urename.h /usr/include/unicode/uversion.h \
+ /usr/lib/gcc/x86_64-linux-gnu/7/include/float.h \
+ /usr/include/unicode/utf.h /usr/include/unicode/utf8.h \
+ /usr/include/unicode/utf16.h /usr/include/unicode/utf_old.h \
+ /usr/include/unicode/uenum.h /usr/include/unicode/localpointer.h \
+ /usr/include/libxml2/libxml/xmlIO.h /usr/include/libxml2/libxml/SAX.h \
+ /usr/include/libxml2/libxml/xlink.h /usr/include/libxml2/libxml/SAX2.h \
+ ../../src/util/virconf.h ../../src/util/virutil.h ../gnulib/lib/unistd.h \
+ /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd.h ../gnulib/lib/getopt-cdefs.h \
+ ../../gnulib/lib/getopt-pfx-core.h ../../gnulib/lib/getopt-core.h \
+ ../../src/rpc/virnetserverclient.h ../../daemon/libvirtd.h \
+ ../../src/admin/admin_protocol.h ../../src/remote/lxc_protocol.h \
+ ../../src/remote/remote_protocol.h ../../src/remote/qemu_protocol.h \
+ ../../src/util/virthread.h ../../src/rpc/virnetserverprogram.h \
+ ../../src/libvirt_internal.h ../../src/internal.h ../../src/datatypes.h \
+ ../../src/driver.h ../../src/libvirt_internal.h \
+ ../../src/driver-hypervisor.h ../../src/driver-interface.h \
+ ../../src/driver-network.h ../../src/driver-nodedev.h \
+ ../../src/driver-nwfilter.h ../../src/driver-secret.h \
+ ../../src/driver-state.h ../../src/driver-stream.h \
+ ../../src/driver-storage.h ../../src/util/viruuid.h \
+ ../../src/util/viralloc.h ../../src/util/virlog.h ../../daemon/stream.h \
+ ../../gnulib/lib/intprops.h ../../src/rpc/virnetserverservice.h \
+ ../../src/rpc/virnetserverprogram.h ../../src/rpc/virnetserver.h \
+ ../../src/rpc/virnetserverservice.h ../../src/util/virfile.h \
+ /usr/include/dirent.h /usr/include/x86_64-linux-gnu/bits/dirent.h \
+ ../../src/util/virstoragefile.h ../gnulib/lib/sys/stat.h \
+ /usr/include/x86_64-linux-gnu/sys/stat.h \
+ /usr/include/x86_64-linux-gnu/bits/stat.h ../../src/util/virseclabel.h \
+ ../../src/util/virstorageencryption.h ../../src/util/virsecret.h \
+ ../../src/util/virxml.h /usr/include/libxml2/libxml/xpath.h \
+ /usr/include/libxml2/libxml/relaxng.h ../../src/util/virtypedparam.h \
+ ../../src/util/virdbus.h ../../src/util/virprocess.h \
+ ../../src/util/virstring.h ../../src/conf/object_event.h \
+ ../../src/conf/domain_conf.h ../../src/conf/capabilities.h \
+ ../../src/util/virbuffer.h ../../src/conf/cpu_conf.h \
+ ../../src/util/virutil.h ../../src/util/virxml.h \
+ ../../src/util/virbitmap.h ../../src/util/virarch.h \
+ ../../src/conf/numa_conf.h ../../src/util/virmacaddr.h \
+ ../../src/util/virresctrl.h ../../src/util/virstorageencryption.h \
+ ../../src/util/virhash.h ../../src/conf/networkcommon_conf.h \
+ ../../src/util/virnetdevip.h ../../src/util/virsocketaddr.h \
+ ../../src/conf/nwfilter_params.h ../../src/util/virnetdevmacvlan.h \
+ ../../src/util/virmacaddr.h ../../src/util/virnetdevbandwidth.h \
+ ../../src/util/virnetdevvportprofile.h ../../src/util/viruuid.h \
+ ../../src/util/virnetdevvlan.h ../../src/util/virsysinfo.h \
+ ../../src/util/virnetdev.h /usr/include/net/if.h ../../src/util/virpci.h \
+ ../../src/util/virnetdevvportprofile.h \
+ ../../src/util/virnetdevbandwidth.h ../../src/util/virnetdevvlan.h \
+ ../../src/conf/device_conf.h ../../src/util/virpci.h \
+ ../../src/util/virstoragefile.h ../../src/util/virseclabel.h \
+ ../../src/util/virgic.h ../../src/util/virperf.h \
+ ../../src/conf/virsavecookie.h ../../src/conf/network_conf.h \
+ ../../src/util/virmacmap.h ../../src/util/virprobe.h \
+ ../../src/util/virlog.h ../../src/access/viraccessapicheck.h \
+ ../../src/conf/secret_conf.h ../../src/conf/storage_conf.h \
+ ../../src/conf/object_event.h ../../src/conf/storage_adapter_conf.h \
+ ../../src/conf/nwfilter_conf.h ../../src/conf/virdomainobjlist.h \
+ ../../src/conf/domain_conf.h ../../src/conf/node_device_conf.h \
+ ../../src/util/virscsihost.h ../../src/util/virvhba.h \
+ ../../src/conf/interface_conf.h ../../src/access/viraccessapicheckqemu.h \
+ ../../src/util/virpolkit.h ../../src/util/vircommand.h \
+ ../../src/util/virthreadjob.h ../../daemon/remote_dispatch.h \
+ ../../daemon/qemu_dispatch.h ../../daemon/lxc_dispatch.h
+
+/usr/include/stdc-predef.h:
+
+../config.h:
+
+../../config-post.h:
+
+../../src/util/virerror.h:
+
+../../src/internal.h:
+
+/usr/include/errno.h:
+
+/usr/include/features.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+../gnulib/lib/limits.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
+
+../../gnulib/lib/verify.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/7/include/stdbool.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+../../gnulib/lib/gettext.h:
+
+/usr/include/libintl.h:
+
+../gnulib/lib/locale.h:
+
+/usr/include/locale.h:
+
+/usr/include/x86_64-linux-gnu/bits/locale.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+../gnulib/lib/string.h:
+
+/usr/include/string.h:
+
+../gnulib/lib/strings.h:
+
+/usr/include/strings.h:
+
+/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
+
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
+
+../../include/libvirt/libvirt.h:
+
+../gnulib/lib/sys/types.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
+/usr/include/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap-16.h:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+../gnulib/lib/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/x86_64-linux-gnu/bits/select2.h:
+
+/usr/include/x86_64-linux-gnu/sys/sysmacros.h:
+
+/usr/include/x86_64-linux-gnu/bits/sysmacros.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+../include/libvirt/libvirt-common.h:
+
+../../include/libvirt/libvirt-host.h:
+
+../../include/libvirt/libvirt-domain.h:
+
+../../include/libvirt/libvirt-domain-snapshot.h:
+
+../../include/libvirt/libvirt-event.h:
+
+../../include/libvirt/libvirt-interface.h:
+
+../../include/libvirt/libvirt-network.h:
+
+../../include/libvirt/libvirt-nodedev.h:
+
+../../include/libvirt/libvirt-nwfilter.h:
+
+../../include/libvirt/libvirt-secret.h:
+
+../../include/libvirt/libvirt-storage.h:
+
+../../include/libvirt/libvirt-stream.h:
+
+../../include/libvirt/libvirt-lxc.h:
+
+../../include/libvirt/libvirt-qemu.h:
+
+../../include/libvirt/libvirt-admin.h:
+
+../../include/libvirt/virterror.h:
+
+../../gnulib/lib/c-strcase.h:
+
+../../gnulib/lib/ignore-value.h:
+
+../../gnulib/lib/count-leading-zeros.h:
+
+../gnulib/lib/stdlib.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+../gnulib/lib/alloca.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
+
+../../daemon/remote.h:
+
+../../src/remote/remote_protocol.h:
+
+/usr/include/rpc/rpc.h:
+
+/usr/include/rpc/types.h:
+
+../gnulib/lib/sys/time.h:
+
+/usr/include/x86_64-linux-gnu/sys/time.h:
+
+/usr/include/x86_64-linux-gnu/sys/param.h:
+
+../gnulib/lib/signal.h:
+
+/usr/include/signal.h:
+
+/usr/include/x86_64-linux-gnu/bits/signum.h:
+
+/usr/include/x86_64-linux-gnu/bits/signum-generic.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigaction.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigcontext.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
+
+/usr/include/x86_64-linux-gnu/sys/ucontext.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigstack.h:
+
+/usr/include/x86_64-linux-gnu/bits/ss_flags.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigthread.h:
+
+/usr/include/x86_64-linux-gnu/bits/param.h:
+
+/usr/include/linux/param.h:
+
+/usr/include/x86_64-linux-gnu/asm/param.h:
+
+/usr/include/asm-generic/param.h:
+
+/usr/include/netinet/in.h:
+
+../gnulib/lib/sys/socket.h:
+
+/usr/include/x86_64-linux-gnu/sys/socket.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h:
+
+/usr/include/x86_64-linux-gnu/bits/socket.h:
+
+/usr/include/x86_64-linux-gnu/bits/socket_type.h:
+
+/usr/include/x86_64-linux-gnu/bits/sockaddr.h:
+
+/usr/include/x86_64-linux-gnu/asm/socket.h:
+
+/usr/include/asm-generic/socket.h:
+
+/usr/include/x86_64-linux-gnu/asm/sockios.h:
+
+/usr/include/asm-generic/sockios.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h:
+
+/usr/include/x86_64-linux-gnu/bits/socket2.h:
+
+/usr/include/x86_64-linux-gnu/bits/in.h:
+
+/usr/include/rpc/xdr.h:
+
+../gnulib/lib/stdio.h:
+
+/usr/include/stdio.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/libio.h:
+
+/usr/include/x86_64-linux-gnu/bits/_G_config.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
+/usr/include/rpc/auth.h:
+
+/usr/include/rpc/clnt.h:
+
+/usr/include/x86_64-linux-gnu/sys/un.h:
+
+/usr/include/rpc/rpc_msg.h:
+
+/usr/include/rpc/auth_unix.h:
+
+/usr/include/rpc/auth_des.h:
+
+/usr/include/rpc/svc.h:
+
+/usr/include/rpc/svc_auth.h:
+
+/usr/include/rpc/netdb.h:
+
+../../src/util/virxdrdefs.h:
+
+../gnulib/lib/arpa/inet.h:
+
+/usr/include/arpa/inet.h:
+
+../../src/rpc/virnetserverprogram.h:
+
+../../src/rpc/virnetmessage.h:
+
+../../src/rpc/virnetprotocol.h:
+
+../../src/rpc/virnetserverclient.h:
+
+../../src/util/viridentity.h:
+
+../../src/util/virobject.h:
+
+../../src/util/virthread.h:
+
+../../src/util/virerror.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/x86_64-linux-gnu/bits/sched.h:
+
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+
+../gnulib/lib/time.h:
+
+/usr/include/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+../../src/rpc/virnetsocket.h:
+
+../../src/util/virsocketaddr.h:
+
+../../src/util/vircommand.h:
+
+../../src/util/virbuffer.h:
+
+../../src/util/virobject.h:
+
+../../src/util/virjson.h:
+
+../../src/util/virbitmap.h:
+
+../../src/util/viruri.h:
+
+/usr/include/libxml2/libxml/uri.h:
+
+/usr/include/libxml2/libxml/xmlversion.h:
+
+/usr/include/libxml2/libxml/xmlexports.h:
+
+/usr/include/libxml2/libxml/tree.h:
+
+/usr/include/libxml2/libxml/xmlstring.h:
+
+/usr/include/libxml2/libxml/xmlregexp.h:
+
+/usr/include/libxml2/libxml/dict.h:
+
+/usr/include/libxml2/libxml/xmlmemory.h:
+
+/usr/include/libxml2/libxml/threads.h:
+
+/usr/include/libxml2/libxml/globals.h:
+
+/usr/include/libxml2/libxml/parser.h:
+
+/usr/include/libxml2/libxml/hash.h:
+
+/usr/include/libxml2/libxml/valid.h:
+
+/usr/include/libxml2/libxml/xmlerror.h:
+
+/usr/include/libxml2/libxml/list.h:
+
+/usr/include/libxml2/libxml/xmlautomata.h:
+
+/usr/include/libxml2/libxml/entities.h:
+
+/usr/include/libxml2/libxml/encoding.h:
+
+/usr/include/iconv.h:
+
+/usr/include/unicode/ucnv.h:
+
+/usr/include/unicode/ucnv_err.h:
+
+/usr/include/unicode/utypes.h:
+
+/usr/include/unicode/umachine.h:
+
+/usr/include/unicode/ptypes.h:
+
+/usr/include/unicode/platform.h:
+
+/usr/include/unicode/uconfig.h:
+
+/usr/include/unicode/uvernum.h:
+
+/usr/include/unicode/urename.h:
+
+/usr/include/unicode/uversion.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/7/include/float.h:
+
+/usr/include/unicode/utf.h:
+
+/usr/include/unicode/utf8.h:
+
+/usr/include/unicode/utf16.h:
+
+/usr/include/unicode/utf_old.h:
+
+/usr/include/unicode/uenum.h:
+
+/usr/include/unicode/localpointer.h:
+
+/usr/include/libxml2/libxml/xmlIO.h:
+
+/usr/include/libxml2/libxml/SAX.h:
+
+/usr/include/libxml2/libxml/xlink.h:
+
+/usr/include/libxml2/libxml/SAX2.h:
+
+../../src/util/virconf.h:
+
+../../src/util/virutil.h:
+
+../gnulib/lib/unistd.h:
+
+/usr/include/unistd.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd.h:
+
+../gnulib/lib/getopt-cdefs.h:
+
+../../gnulib/lib/getopt-pfx-core.h:
+
+../../gnulib/lib/getopt-core.h:
+
+../../src/rpc/virnetserverclient.h:
+
+../../daemon/libvirtd.h:
+
+../../src/admin/admin_protocol.h:
+
+../../src/remote/lxc_protocol.h:
+
+../../src/remote/remote_protocol.h:
+
+../../src/remote/qemu_protocol.h:
+
+../../src/util/virthread.h:
+
+../../src/rpc/virnetserverprogram.h:
+
+../../src/libvirt_internal.h:
+
+../../src/internal.h:
+
+../../src/datatypes.h:
+
+../../src/driver.h:
+
+../../src/libvirt_internal.h:
+
+../../src/driver-hypervisor.h:
+
+../../src/driver-interface.h:
+
+../../src/driver-network.h:
+
+../../src/driver-nodedev.h:
+
+../../src/driver-nwfilter.h:
+
+../../src/driver-secret.h:
+
+../../src/driver-state.h:
+
+../../src/driver-stream.h:
+
+../../src/driver-storage.h:
+
+../../src/util/viruuid.h:
+
+../../src/util/viralloc.h:
+
+../../src/util/virlog.h:
+
+../../daemon/stream.h:
+
+../../gnulib/lib/intprops.h:
+
+../../src/rpc/virnetserverservice.h:
+
+../../src/rpc/virnetserverprogram.h:
+
+../../src/rpc/virnetserver.h:
+
+../../src/rpc/virnetserverservice.h:
+
+../../src/util/virfile.h:
+
+/usr/include/dirent.h:
+
+/usr/include/x86_64-linux-gnu/bits/dirent.h:
+
+../../src/util/virstoragefile.h:
+
+../gnulib/lib/sys/stat.h:
+
+/usr/include/x86_64-linux-gnu/sys/stat.h:
+
+/usr/include/x86_64-linux-gnu/bits/stat.h:
+
+../../src/util/virseclabel.h:
+
+../../src/util/virstorageencryption.h:
+
+../../src/util/virsecret.h:
+
+../../src/util/virxml.h:
+
+/usr/include/libxml2/libxml/xpath.h:
+
+/usr/include/libxml2/libxml/relaxng.h:
+
+../../src/util/virtypedparam.h:
+
+../../src/util/virdbus.h:
+
+../../src/util/virprocess.h:
+
+../../src/util/virstring.h:
+
+../../src/conf/object_event.h:
+
+../../src/conf/domain_conf.h:
+
+../../src/conf/capabilities.h:
+
+../../src/util/virbuffer.h:
+
+../../src/conf/cpu_conf.h:
+
+../../src/util/virutil.h:
+
+../../src/util/virxml.h:
+
+../../src/util/virbitmap.h:
+
+../../src/util/virarch.h:
+
+../../src/conf/numa_conf.h:
+
+../../src/util/virmacaddr.h:
+
+../../src/util/virresctrl.h:
+
+../../src/util/virstorageencryption.h:
+
+../../src/util/virhash.h:
+
+../../src/conf/networkcommon_conf.h:
+
+../../src/util/virnetdevip.h:
+
+../../src/util/virsocketaddr.h:
+
+../../src/conf/nwfilter_params.h:
+
+../../src/util/virnetdevmacvlan.h:
+
+../../src/util/virmacaddr.h:
+
+../../src/util/virnetdevbandwidth.h:
+
+../../src/util/virnetdevvportprofile.h:
+
+../../src/util/viruuid.h:
+
+../../src/util/virnetdevvlan.h:
+
+../../src/util/virsysinfo.h:
+
+../../src/util/virnetdev.h:
+
+/usr/include/net/if.h:
+
+../../src/util/virpci.h:
+
+../../src/util/virnetdevvportprofile.h:
+
+../../src/util/virnetdevbandwidth.h:
+
+../../src/util/virnetdevvlan.h:
+
+../../src/conf/device_conf.h:
+
+../../src/util/virpci.h:
+
+../../src/util/virstoragefile.h:
+
+../../src/util/virseclabel.h:
+
+../../src/util/virgic.h:
+
+../../src/util/virperf.h:
+
+../../src/conf/virsavecookie.h:
+
+../../src/conf/network_conf.h:
+
+../../src/util/virmacmap.h:
+
+../../src/util/virprobe.h:
+
+../../src/util/virlog.h:
+
+../../src/access/viraccessapicheck.h:
+
+../../src/conf/secret_conf.h:
+
+../../src/conf/storage_conf.h:
+
+../../src/conf/object_event.h:
+
+../../src/conf/storage_adapter_conf.h:
+
+../../src/conf/nwfilter_conf.h:
+
+../../src/conf/virdomainobjlist.h:
+
+../../src/conf/domain_conf.h:
+
+../../src/conf/node_device_conf.h:
+
+../../src/util/virscsihost.h:
+
+../../src/util/virvhba.h:
+
+../../src/conf/interface_conf.h:
+
+../../src/access/viraccessapicheckqemu.h:
+
+../../src/util/virpolkit.h:
+
+../../src/util/vircommand.h:
+
+../../src/util/virthreadjob.h:
+
+../../daemon/remote_dispatch.h:
+
+../../daemon/qemu_dispatch.h:
+
+../../daemon/lxc_dispatch.h:

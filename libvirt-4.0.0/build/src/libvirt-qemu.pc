@@ -1,0 +1,19 @@
+# Dummy pkg-config file to allow lang bindings
+# to build against a libvirt source tree eg
+# export PKG_CONFIG_PATH=/path/to/libvirt/git/src
+
+prefix=/home/v-jiezhao/libvirt-4.0.0/build
+exec_prefix=/home/v-jiezhao/libvirt-4.0.0/build
+libdir=/home/v-jiezhao/libvirt-4.0.0/build/src/.libs
+includedir=/home/v-jiezhao/libvirt-4.0.0/build/include
+source_includedir=/home/v-jiezhao/libvirt-4.0.0/build/../include
+datarootdir=/home/v-jiezhao/libvirt-4.0.0/build/..
+
+libvirt_qemu_api=${datarootdir}/docs/libvirt-qemu-api.xml
+
+Name: libvirt
+Version: 4.0.0
+Description: libvirt QEMU library
+Requires:
+Libs: -L${libdir} -lvirt-qemu
+Cflags: -I${includedir} -I${source_includedir}

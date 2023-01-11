@@ -1,0 +1,8 @@
+/home/v-jiezhao/libvert-4.0.0/libvirt_build/var/log/libvirt/qemu/*.log {
+        weekly
+        missingok
+        rotate 4
+        compress
+        delaycompress
+        copytruncate
+}
